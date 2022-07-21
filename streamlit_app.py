@@ -8,6 +8,8 @@ streamlit.text('🥬Kale, Spinach and Rocket Smoothe')
 streamlit.text('🥚Hard boiled Free Range Egg')
 streamlit.text('🥑Avecado Toast')
 
+streamlit.header('🍌 🍓 Build your own Smoothie 🍇 🥝 ')
+
 import pandas
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 
